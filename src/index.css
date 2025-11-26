@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+  font-family: manrope, sans-serif;
+
+}
+
+:root {
+  --primary: #217AFF;
+  --secondary: #F4F1FF;
+  --text: #FFFFFF;
+  --bg: #191919;
+  --bg-card: #1C1C1C;
+  --border: #262626;
+
+  --radius: 12px;
+  --transition: 0.3s ease;
+}
+
+html{
+  background-color: var(--bg);
+}
